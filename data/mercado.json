@@ -1,0 +1,35 @@
+{
+  "updated_at": "2026-10-31T12:17:27.976Z",
+  "status": "actualizado",
+  "sources": {
+    "brent": "FRED DCOILBRENTEU CSV (Brent Europe, USD/barril)",
+    "eurusd": "Frankfurter API (EUR/USD, sin API key)",
+    "geopolitical": "GDELT DOC 2.0 API (noticias globales, sin API key)"
+  },
+  "brent": {
+    "latest_date": "2026-10-27",
+    "latest_usd_per_barrel": 123.1,
+    "previous_date": "2026-10-20",
+    "previous_usd_per_barrel": 115.22,
+    "change_7d_pct": 6.84,
+    "signal_eur_l_3d": 0.0205
+  },
+  "eurusd": {
+    "latest_date": "2026-10-30",
+    "latest_rate": 1.1172,
+    "previous_date": "2026-10-21",
+    "previous_rate": 1.1234,
+    "change_7d_pct": -0.55,
+    "signal_eur_l_3d": 0.0008
+  },
+  "geopolitical": {
+    "level": "sin datos",
+    "score": 0,
+    "articles_analyzed": 0,
+    "high_risk_matches": 0,
+    "signal_eur_l_3d": 0,
+    "sample_titles": []
+  },
+  "formula": "Previsión final = 60% histórico carburantes + 25% Brent + 10% EUR/USD + 5% riesgo geopolítico.",
+  "warning": "Estimación orientativa. No es una recomendación financiera ni garantiza precios futuros."
+}

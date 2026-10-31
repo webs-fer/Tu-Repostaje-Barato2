@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://webs-fer.github.io/Tu-Repostaje-Barato2/sitemap.xml

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-07T12:54:39.579Z",
+  "updated_at": "2026-11-08T13:16:46.423Z",
   "status": "actualizado",
   "sources": {
     "brent": "FRED DCOILBRENTEU CSV (Brent Europe, USD/barril)",
@@ -17,10 +17,10 @@
   "eurusd": {
     "latest_date": "2026-11-06",
     "latest_rate": 1.1165,
-    "previous_date": "2026-10-28",
-    "previous_rate": 1.1133,
-    "change_7d_pct": 0.29,
-    "signal_eur_l_3d": -0.0004
+    "previous_date": "2026-10-29",
+    "previous_rate": 1.113,
+    "change_7d_pct": 0.31,
+    "signal_eur_l_3d": -0.0005
   },
   "geopolitical": {
     "level": "sin datos",

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-08T13:16:46.423Z",
+  "updated_at": "2026-11-09T16:09:04.645Z",
   "status": "actualizado",
   "sources": {
     "brent": "FRED DCOILBRENTEU CSV (Brent Europe, USD/barril)",
@@ -15,20 +15,27 @@
     "signal_eur_l_3d": -0.03
   },
   "eurusd": {
-    "latest_date": "2026-11-06",
-    "latest_rate": 1.1165,
-    "previous_date": "2026-10-29",
-    "previous_rate": 1.113,
-    "change_7d_pct": 0.31,
-    "signal_eur_l_3d": -0.0005
+    "latest_date": "2026-11-09",
+    "latest_rate": 1.1193,
+    "previous_date": "2026-10-30",
+    "previous_rate": 1.1172,
+    "change_7d_pct": 0.19,
+    "signal_eur_l_3d": -0.0003
   },
   "geopolitical": {
-    "level": "sin datos",
-    "score": 0,
-    "articles_analyzed": 0,
-    "high_risk_matches": 0,
-    "signal_eur_l_3d": 0,
-    "sample_titles": []
+    "level": "alto",
+    "score": 100,
+    "articles_analyzed": 50,
+    "high_risk_matches": 10,
+    "signal_eur_l_3d": 0.009,
+    "query": "(oil OR brent OR crude OR petroleum) (war OR conflict OR sanctions OR opec OR russia OR iran OR \"middle east\" OR supply)",
+    "sample_titles": [
+      "Trump admite que su política de deportaciones fue  demasiado dura  y perjudicó a los republicanos",
+      "COP31 faces uphill battle as war , AI reshape climate agenda",
+      "Taiwanin pörssi ponnahti yli viisi prosenttia – Wall Streetillä odotetaan , kantaako teknologiaosakkeiden toipuminen",
+      "ইরানে অস্ত্র ও অবৈধ পণ্য প্রবেশ ঠেকাতে নতুন টাস্কফোর্স গঠন যুক্তরাষ্ট্রের",
+      "車両電動化市場規模 、 シェア 、 動向 、 2033年までの世界予測 （ MarketsandMarkets ） - CNET Japan -"
+    ]
   },
   "formula": "Previsión final = 60% histórico carburantes + 25% Brent + 10% EUR/USD + 5% riesgo geopolítico.",
   "warning": "Estimación orientativa. No es una recomendación financiera ni garantiza precios futuros."

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-25T17:08:16.939Z",
+  "updated_at": "2026-11-26T16:48:53.743Z",
   "status": "actualizado",
   "sources": {
     "brent": "FRED DCOILBRENTEU CSV (Brent Europe, USD/barril)",
@@ -7,28 +7,35 @@
     "geopolitical": "GDELT DOC 2.0 API (noticias globales, sin API key)"
   },
   "brent": {
-    "latest_date": "2026-11-17",
-    "latest_usd_per_barrel": 92.94,
-    "previous_date": "2026-11-10",
-    "previous_usd_per_barrel": 90.16,
-    "change_7d_pct": 3.08,
-    "signal_eur_l_3d": 0.0092
+    "latest_date": "2026-11-24",
+    "latest_usd_per_barrel": 91.8,
+    "previous_date": "2026-11-17",
+    "previous_usd_per_barrel": 92.94,
+    "change_7d_pct": -1.23,
+    "signal_eur_l_3d": -0.0037
   },
   "eurusd": {
-    "latest_date": "2026-11-25",
-    "latest_rate": 1.0935,
-    "previous_date": "2026-11-13",
-    "previous_rate": 1.1052,
-    "change_7d_pct": -1.06,
-    "signal_eur_l_3d": 0.0016
+    "latest_date": "2026-11-26",
+    "latest_rate": 1.0975,
+    "previous_date": "2026-11-16",
+    "previous_rate": 1.1014,
+    "change_7d_pct": -0.35,
+    "signal_eur_l_3d": 0.0005
   },
   "geopolitical": {
-    "level": "sin datos",
-    "score": 0,
-    "articles_analyzed": 0,
-    "high_risk_matches": 0,
-    "signal_eur_l_3d": 0,
-    "sample_titles": []
+    "level": "alto",
+    "score": 78,
+    "articles_analyzed": 50,
+    "high_risk_matches": 3,
+    "signal_eur_l_3d": 0.009,
+    "query": "(oil OR brent OR crude OR petroleum) (war OR conflict OR sanctions OR opec OR russia OR iran OR \"middle east\" OR supply)",
+    "sample_titles": [
+      "За девять месяцев оренбургские нефтяники сэкономили 55 млн кВт * ч электроэнергии",
+      "Grupo MAS lanza tres marcas exclusivas bajo el sello Selección Familia Martín e impulsa un proyecto ganadero en Sevilla",
+      "31 . Klimagipfel :  Rote Linien",
+      "São Martinho : JPMorgan corta recomendao para venda após balanço ; ao cai",
+      "Силы обороны ударили « Нептуном » по аэродрому рф и поразили нефтестанцию « транснефти »"
+    ]
   },
   "formula": "Previsión final = 60% histórico carburantes + 25% Brent + 10% EUR/USD + 5% riesgo geopolítico.",
   "warning": "Estimación orientativa. No es una recomendación financiera ni garantiza precios futuros."
